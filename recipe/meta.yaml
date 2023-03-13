@@ -1,5 +1,5 @@
 {% set name = "simplegmail" %}
-{% set version = "4.1.0" %}
+{% set version = "4.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/simplegmail-{{ version }}.tar.gz
-  sha256: 37e527366d0c54e64ce9e2f1d3e4cdb53247ea40d30564dea371f40cf09ca135
+  sha256: 3afd9b954f74e721d3d98bdf3b2e49af4a0faf1557ae546b3bd4076074d29cca
 
 build:
   noarch: python
