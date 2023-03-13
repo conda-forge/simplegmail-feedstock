@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/simplegmail-{{ version }}.tar.gz
   sha256: 37e527366d0c54e64ce9e2f1d3e4cdb53247ea40d30564dea371f40cf09ca135
-  patches:
-    - setup.patch
 
 build:
   noarch: python
