@@ -1,18 +1,18 @@
 {% set name = "simplegmail" %}
-{% set version = "4.1.1" %}
+{% set version = "5.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/simplegmail-{{ version }}.tar.gz
-  sha256: 3afd9b954f74e721d3d98bdf3b2e49af4a0faf1557ae546b3bd4076074d29cca
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/simplegmail-{{ version }}.tar.gz
+  sha256: 92b7e2cc48f40b4727214cd9fe46a6490df8e5d9dffcc9f8d636f1935408d338
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
