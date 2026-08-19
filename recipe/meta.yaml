@@ -22,6 +22,7 @@ requirements:
     - setuptools
   run:
     - beautifulsoup4
+    - google-auth-oauthlib
     - google-api-python-client >=1.7.3
     - lxml >=4.4.2
     - oauth2client >=4.1.3
